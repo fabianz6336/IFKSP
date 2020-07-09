@@ -1,0 +1,37 @@
+
+@font-face {
+    font-family: "oxygenreg"; 
+    src: url(Font/Oxygen/Oxygen-Regular.ttf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: "oxygenlight"; 
+    src: url(Font/Oxygen/Oxygen-Light.ttf);
+    font-weight: 200;}
+@font-face {
+    font-family: "oxygenbold"; 
+    src: url(Font/Oxygen/Oxygen-Bold.ttf);
+    font-weight: 700;}
+body {background-color: peachpuff;}
+    h1 {color: red; font-family: "oxygenlight";
+    font-size: 28;}
+    #bioHeader {color: seagreen; font-family: "oxygenlight";
+        font-size: 24px; line-height: 36px;
+        text-align: left;}
+    #skillsHeader {color: palevioletred;font-family: 'Times New Roman', Times, serif;
+        font-size: 24px; line-height: 36px;
+        text-align: left;}
+p {color: blue; font-size: 18px;text-align: justify;
+text-transform: none; line-height: 24px; font-weight: 500;}
+.content {color: rebeccapurple; font-size: 18px;text-align: justify;
+text-transform: none; line-height: 24px; font-weight: 500;
+max-width: 89.15%;}
+.bold {font-weight: bold; font-size: 30px;}
+.bold1 {font-weight: bold; font-size: 30px;}
+img { width: 10.63%; height: 180px;
+    box-shadow: 3px 3px 5px;
+    margin: 0.12%;} 
+.imgDiv { background-color: lightblue;}  
+ 
+.imgDiv1 { background-color: rgb(93, 182, 212);} 
+        #img-1 {visibility: visible;} 

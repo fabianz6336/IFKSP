@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<body>
+    <form>
+        <fieldset><span>
+        <h3>Rendelési Adatok</h3>
+    </span>
+    <div>
+        <label for="name">Név: *</label>
+        <input id="name" name="name" type="text" required>
+    </div>
+    <div>
+        <label for="email">Email cím: *</label>
+        <input id="email" name="email" type="email" required>
+    </div>
+    <div>
+        <label for="adress">Cím: *</label>
+        <input id="adress" name="adress" type="text" required>
+    </div>
+    <div>
+        <label for="comment">Megjegyzés:</label>
+        <textarea id="comment" name="comment" rows="5"></textarea>
+    </div></fieldset>
+    
+</form>
+<fieldset> <span>
+        <h3>Extra Feltét</h3>
+    </span>
+    <div>
+        <div>
+            <input checked id="nothing" name="extra" type="radio" value="0">
+            <label for="nothing">Nothing</label>
+        </div>
+        <div>
+            <input checked id="cheese" name="extra" type="radio" value="300">
+            <label for="cheese">Feltét 1</label>
+        </div>
+        <div>
+            <input checked id="Double-cheese" name="extra" type="radio" value="600">
+            <label for="Double-cheese">Feltét 2</label>
+        </div>
+        <div>
+            <input checked id="Double-meat" name="extra" type="radio" value="1000">
+            <label for="Double-meat">Feltét 3</label>
+        </div>
+        <div>
+            <input checked id="Piedone" name="extra" type="radio" value="16000">
+            <label for="Piedone">Feltét 4</label>
+        </div>
+        <div>
+            <input checked id="Other" name="extra" type="radio" value="0">
+            <label for="Other">Other</label>
+        </div>
+        <div>
+            <label for="Other"></label>
+            <textarea id="Other" name="Other" rows="5"></textarea>
+        </div>
+    </div></fieldset>
+   
+</body>
+
+</html>
